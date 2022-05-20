@@ -48,11 +48,7 @@ public class BaseClass {
 		ll.logoutApplication();
 		
    }
-	@AfterClass(alwaysRun=true)
-   public void closeBrowser()
-   {
-	   driver.close();
-   }
+	
 }
 
 
